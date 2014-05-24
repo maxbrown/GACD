@@ -62,7 +62,7 @@ featuresVector <- featuresData[, 2]
 ```
 
 
-Add header to data.frame. Code referred from [Stack-Overflow](http://stackoverflow.com/a/14022113/2356016)
+Add header to data.frame.
 
 
 ```r
@@ -155,8 +155,7 @@ completeDataset <- rbind(testDataset, trainDataset)
 
 Now, lets subset the dataset for mean and std measures only!
 
-Use Grep for identifying the subset measures. Code referred from [Stack-Overflow](http://stackoverflow.com/a/21311458/2356016)
-
+Use Grep for identifying the subset measures. 
 
 
 ```r
